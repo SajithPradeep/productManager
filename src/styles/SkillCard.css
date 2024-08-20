@@ -1,0 +1,46 @@
+/* src/styles/SkillCard.css */
+.skill-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.2s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    flex: 0 1 calc(50% - 20px); /* Each item takes up 50% of the container width, minus the gap */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    padding: 20px; /* Space inside each item */
+    background-color: #f4f4f4; /* Background color for visibility */
+    border: 1px solid #ddd; /* Border for visibility */
+    text-align: center; /* Center text inside items */
+  }
+
+  /* Media Query for Tablets and Mobile Devices */
+@media (max-width: 768px) {
+    .skill-card {
+      flex: 0 1 100%; /* Each item takes up 100% of the container width */
+    }
+  }
+  
+  .skill-card:hover {
+    transform: scale(1.01);
+  }
+  
+  .skill-card h3 {
+    font-size: 1.5rem;
+    height: 50px;
+  }
+  
+  .skill-card h4 {
+    font-size: 1.0rem;
+    color: #555;
+    margin-bottom: 15px;
+    margin-top: 10px;
+  }
+  
+  .skill-card p {
+    font-size: 1rem;
+    color: #666;
+  }
+  

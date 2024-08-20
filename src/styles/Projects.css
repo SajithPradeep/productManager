@@ -1,0 +1,14 @@
+/* src/styles/Projects.css */
+#projects ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #projects li {
+    background-color: #3498db;
+    color: white;
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
