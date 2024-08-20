@@ -1,0 +1,53 @@
+/* src/styles/Home.css */
+#home {
+    text-align: center;
+    background-color: #1abc9c;
+    color: white;
+    padding: 100px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  
+  #home h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  #home .roles {
+    font-size: 24px;
+    font-family:'Courier New', Courier, monospace
+  }
+  
+  #home .role-description {
+    font-size: 18px;
+  }
+
+  .avatar {
+    border-radius: 50%;
+    width: 150px; /* Adjust size as needed */
+    height: 150px;
+    margin: 20px 0;
+    object-fit: cover; /* Ensures the image maintains aspect ratio */
+  }
+  
+  #skills {
+    padding: 50px 20px;
+    background-color: #f4f4f4; /* Light background for contrast */
+  }
+  
+  .skill-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .skill-card {
+    flex: 1;
+  }
+  
+  /* Ensure responsiveness */
+  @media (max-width: 768px) {
+    .skill-card {
+      flex: 1 1 100%; /* Stacks cards in a single column on smaller screens */
+    }
+  }

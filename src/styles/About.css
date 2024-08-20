@@ -1,0 +1,10 @@
+/* src/styles/About.css */
+#about {
+    background-color: #ecf0f1;
+  }
+  
+  #about p {
+    font-size: 18px;
+    line-height: 1.6;
+  }
+  

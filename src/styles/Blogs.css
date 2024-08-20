@@ -1,0 +1,35 @@
+/* src/styles/Blogs.css */
+#blogs {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+  }
+  
+  .blog-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .blog-post {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .blog-post h3 {
+    margin-top: 0;
+    color: #2c3e50;
+  }
+  
+  .blog-post a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .blog-post a:hover {
+    color: #3498db;
+  }
+  
